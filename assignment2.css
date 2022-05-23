@@ -1,0 +1,97 @@
+* {
+  box-sizing:border-box;
+	
+}
+
+.webpage {
+  width:100%;
+  height:100%;
+  background-color:darkgray;
+  /*background-image: url("2.jpeg");
+  https://cdn.suwalls.com/wallpapers/photography/gray-fabric-53677-1920x1080.jpg
+  background-repeat: repeat;
+  background-attachment: fixed;*/
+  
+}
+/*   header part  */
+.header_webpage {
+	width:100%;
+	height:90px;
+	margin:0px;
+	color:white;
+	position:relative;
+	border:0px solid black;
+	
+	
+}
+h1 {
+	padding-left:100px;
+	float:left;
+}
+ul {
+	list-style-type:none;
+	float:right;
+	padding-right:30px;
+	
+}
+li {
+	
+	float:left;
+	border:1px solid white;
+	margin:3px;
+	padding:5px;
+}
+
+/*  content part */
+.content_webpage {
+	width:100%;
+	height:550px;
+	position:relative;
+	
+}
+#divison1 {
+	position:absolute;
+	top:20%;
+	left:200px;
+    z-index:1;	
+	color:white;
+	font-size:20px;
+}
+#divison2 {
+	position:absolute;
+	bottom:60%;
+	left:460px;
+	color:white;
+	
+	
+} 
+#divison2 p {
+	padding:0px 10px;
+	
+	
+}
+#divison1 span {
+	color:#1E90FF
+	
+}
+.button {
+	position:absolute;
+	bottom:50%;
+	left:460px;
+	
+	
+}
+#watchvideo {
+	background-color:rgb(30,144,255);
+	color:#00FFFF;
+	border:0px solid white;
+	padding:7px 15px;
+}
+#subscribeus {
+	background-color:rgba(30,144,255,0);
+	color:white;
+	border:1px solid white;
+	padding:5px 8px;
+	font-weight:bold;
+	margin-left:3px;
+}
