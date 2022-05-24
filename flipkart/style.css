@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-backdrop.fade.show {
+    position: static;
+}
+
+._3wFoIb ._3oBhRa._4H6HH5 {
+    background-image: url(//static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png);
+    background-position: center 85%;
+    background-repeat: no-repeat;
+}
+
+._3wFoIb ._3oBhRa {
+    background-color: #2874f0;
+    color: #fff;
+    padding: 40px 33px;
+    font-size: 15px;
+}
+
+.col-2-5 {
+    width: 40%;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col,
+.row {
+    /* width: 100%; */
+}
+
+.col, .row {
+    /* width: 100%; */
+}
+.row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+._3wFoIb {
+    /* color: #212121; */
+    margin: 0 auto;
+    border-radius: 2px;
+    height: 528px;
+    max-width: 750px;
+    min-width: 650px;
+}
+
+.col-3-5 {
+    width: 60%;
+}
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
+.col, .row {
+    /* width: 100%; */
+}
+._36HLxm {
+    padding: 56px 35px 16px;
+    position: relative;
+    background-color: #fff;
+}

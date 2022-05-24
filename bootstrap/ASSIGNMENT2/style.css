@@ -1,0 +1,54 @@
+*{
+    background-color: #5f4a8b;
+    @media screen {
+        max-width: 600px;
+    }
+}
+
+body{
+    background-color: transparent;
+}
+
+P.text-center{
+    font-size:50px;
+    color:#fff;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+h5.text-center{
+    font-size:50px;
+    color:#fff;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    border: 1px solid black;
+    padding: 0 250px 5px 250px;
+    background-color: #000;
+}
+
+div.card-body{
+    margin: 2px;
+    width: 200px;
+    position: fixed;
+    top: 50vh;
+    background-color: #000;
+    color: #fff;
+    height: 200px;
+}
+li{
+list-style: none;
+background-color: #000;
+}
+
+h5.card-title{
+    background-color: #000;
+}
+
+card-group {
+   flex-direction: none;
+}
+
+
+ 
