@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <h1>Arrays Assignment</h1>
+
+
+    <script>
+        //  5 number of elements
+        let supers = ['batman','superman','wonder women','aquaman','arrow','ironman','spiderman'];
+        console.log(supers);
+
+        //length 
+        console.log(supers.length);
+
+        // Declare 
+        let Branches = ['computerscience', 'electronics', 'electrical', 'mechanical', 'civil']
+
+        //Print the number 
+        console.log(Branches.length);
+
+        // Print the first Branch, middle and last Branch
+        console.log("First branch	==> ", Branches[0]);
+       
+        console.log("Middle branch	==> ", Branches[2]);
+       
+        console.log("Last branch	==> ", Branches[4]);
+
+        // Print out each Branch
+        console.log("First branch	==> ", Branches[0]);
+       
+        console.log("Second branch	==> ", Branches[1]);
+       
+        console.log("Third branch	==> ", Branches[2]);
+        
+        console.log("Fourth branch	==> ", Branches[3]);
+        
+        console.log("Fifth branch	==> ", Branches[4]);
+
+        //  name  to uppercase
+        console.log(Branches[0].toUpperCase());
+       
+        console.log(Branches[1].toUpperCase());
+       
+        console.log(Branches[2].toUpperCase());
+       
+        console.log(Branches[3].toUpperCase());
+       
+        console.log(Branches[4].toUpperCase());
+
+
+
+        // Print :
+       
+        var IT = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+       
+        console.log("sentence", IT.toString(), "are big IT Branches.")
+
+        // Sort the array using _sort()_ method
+       
+        console.log(IT);
+       
+        console.log("sort the array", IT.sort());
+
+        //Reverse the array using _reverse()_ method
+        var IT = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+       
+        console.log(IT.reverse());
+
+        //Slice out the first 3 Branches from the array
+       
+        var IT = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+       
+        console.log("slice out first 3 branches", IT.slice(0, 3));
+
+        // Slice last 3 Branches from the array
+        var IT = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+        console.log("slice out last 3 branches", IT.slice(4, 7));
+
+        // Slice middle IT Branch or Branches from the array
+        var IT = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+        console.log("middle", IT.slice(3, 4));
+
+        //Remove the first IT Branch 
+        var IT = ['Facebook' , 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+        console.log("remove first IT branch", IT.shift());
+        console.log(IT);
+
+        // Remove the middle IT Branch or Branches 
+        var IT = ['Facebook' , 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+        console.log("remove middle IT branch", IT.splice(4,1));
+        console.log(IT);
+
+        // Remove the last IT Branch 
+        var IT = ['Facebook' , 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+        console.log("remove last IT branch", IT.pop());
+        console.log(IT);
+
+        // Remove all IT Branches
+        var IT = ['Facebook' , 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+        console.log("remove all IT branch", IT.splice(0,7));
+        console.log(IT);
+
+    </script>
+
+</body>
+
+</html>
