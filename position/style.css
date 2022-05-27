@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 10px;
+    font-size: 30px;
+   
+}
+
+#static, #relative, #absolute, #sticky, #fixed {
+    border: 1px solid red;
+}
+
+#static{
+    background-color: blue;
+    position: static;
+}
+
+#relative{
+    background-color: green;
+    position: relative;
+}
+
+#absolute{
+    background-color: orange;
+    position:absolute;
+    top: 650px;;
+
+}
+
+#fixed{
+    background-color: pink;
+    position:fixed;
+    z-index: 1;
+}
+
+#sticky{
+    background-color: yellow;
+    position:sticky ;
+    top: 10px;
+}
