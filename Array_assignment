@@ -1,0 +1,70 @@
+Declare an array with more than 5 number of elements
+Find the length of your array
+Declare an array variable name it Branches and assign initial values ComputerScience, Electronics, Electrical....
+Print the number of Branches in the array
+Print the first Branch, middle and last Branch
+Print out each Branch
+Change each Branch name  to uppercase one by one and print them out
+Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT Branches.
+Check if a certain Branch exists in the itBranches array. If it exist return the Branch else return a Branch is _not found_
+Filter out Branches which have more than one 'o' without the filter method
+Sort the array using _sort()_ method
+Reverse the array using _reverse()_ method
+Slice out the first 3 Branches from the array
+Slice out the last 3 Branches from the array
+Slice out the middle IT Branch or Branches from the array
+Remove the first IT Branch from the array
+Remove the middle IT Branch or Branches from the array
+Remove the last IT Branch from the array
+Remove all IT Branches
+
+Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
+First remove all the punctuations and change the string to array and count the number of words in the array
+
+    ```js
+    let text =
+    'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+    console.log(words)
+    console.log(words.length)
+    ```
+
+    ```sh
+    ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
+  
+    13
+    ```
+
+
+
+
+
+
+
+
+In the following shopping cart add, remove, edit items
+    ```js
+    const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+    ```
+
+   - add 'Meat' in the beginning of your shopping cart if it has not been already added
+   - add Sugar at the end of you shopping cart if it has not been already added
+   - remove 'Honey' if you are allergic to honey
+   - modify Tea to 'Green Tea'
+   
+   
+   
+   
+In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+In the webTechs array check if Sass exists in the array  and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
+Concatenate the following two variables and store it in a fullStack variable.
+
+    ```js
+    const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+    const backEnd = ['Node','Express', 'MongoDB']
+  
+    console.log(fullStack)
+    ```
+
+    ```sh
+    ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
+    ```
