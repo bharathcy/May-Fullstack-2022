@@ -11,7 +11,7 @@ console.log(c)
 let list2=['mango','banana','tomato',50, '20', 'raju']
 console.log(list2.length)
 '3>Declare an array variable name it Branches and assign initial values ComputerScience, Electronics, Electrical....'
-let Branches=['ComputerScience','Electronics','Electrical', 'civil']
+var Branches=['ComputerScience','Electronics','Electrical', 'civil']
 console.log(Branches)
 console.log(Branches[0].toUpperCase())
 console.log(Branches[2].toUpperCase())
@@ -21,7 +21,7 @@ console.log(Branches[3].toUpperCase())
 sentence=['Facebook', 'Google','Microsoft','Apple','IBM','IBM,Oracle and Amazon are big IT Branches.']
 console.log(sentence.join(" "))
 '5>Check if a certain Branch exists in the itBranches array. If it exist return the Branch else return a Branch is _not found_'
- let itBranches=['ComputerScience', 'infomationscence', 'BCA','MCA']
+ var itBranches=['ComputerScience', 'infomationscence', 'BCA','MCA']
  let _Branches=['ComputerScience','Electronics','Electrical', 'civil']
 if(itBranches in _Branches ){
 	console.log(_Branches)
@@ -30,7 +30,16 @@ else{
 	console.log("_not found_")
 }
 
-//'6>Filter out Branches which have more than one ''o' 'without the filter method'
+'6>Filter out Branches which have more than one ''o' 'without the filter method'
+console.log("Filter out Branches which have more than one ''o' 'without the filter method'")
+for (x of Branches) {
+    if (x.includes('o')) {
+        let o_index_count=x.mactch(/o/g)
+        if(o_index_count.length>1){
+            console.log(x)
+        }
+    }
+}
 
 
 '5>Sort the array using _sort()_ method'
