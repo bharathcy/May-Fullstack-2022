@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/login-bg.jpeg);
+    height: 100vh;
+}
+
+.logintop{
+    background-color: transparent;
+    width: 100vw;
+    height: 70px;
+    padding: 15px;
+}
+
+.logintop img{
+    width: 150px;
+
+}
+
+.loginbox{
+    width: 25%;
+    height: auto;
+    background-color: #000;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+   
+}
+
