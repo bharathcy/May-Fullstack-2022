@@ -1,11 +1,11 @@
-const previous_values =[]
+const cache =[]
 
 function factorial(n)
 {
-	if(previous_values[n] != null)
+	if(cache[n] != null)
 	{
 		
-		return previous_values[n]
+		return cache[n]
 
 	}
 	let factorial = 1
@@ -15,11 +15,11 @@ function factorial(n)
 	 }else{
 		 for(let i=n;i>=1;i--)
 	     {
-			 console.log("loading") 
+			 console.log("loading") // for the first time we could see the loading ,but for 2nd couldn't see if we pass the same argument
 	     	 factorial=factorial*i
 	     }
 		 
-		 previous_values[n] = factorial
+		 cache[n] = factorial
 		 return factorial
 	 }		 
 	
