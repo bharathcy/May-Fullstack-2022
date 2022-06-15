@@ -21,3 +21,5 @@ const memoizedAdd = () => {
 const newAdd = memoizedAdd();
 console.log(newAdd(9)); // calculated
 console.log(newAdd(9)); // cached
+console.log(newAdd(25)); // calculated
+console.log(newAdd(25)); // cached
