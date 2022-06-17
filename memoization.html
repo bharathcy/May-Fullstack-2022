@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+	
+const add =(n) => (n+100);
+console.log(add(10));
+
+const memorize =(fn) => {
+    let cache ={};
+    return(...args) => {
+        let n =args[0];
+
+        if(n in cache){
+            console.log("fetching from cache");
+            return cache[n];
+        }
+        else{
+            console.log('calculating result');
+            let result =fn(n);
+            cache[n]= result;
+            return result;
+        }
+    }
+}
+
+const memorizeAdd=memorize(add);
+console.log(memorizeAdd(8));
+console.log(memorizeAdd(8)); //cache
+console.log(memorizeAdd(5));
+console.log(memorizeAdd(5));//cache
+
+</script>
+</body>
+</html>
