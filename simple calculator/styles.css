@@ -1,0 +1,27 @@
+
+.calculator {
+    padding: 10px;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color:black;
+   
+}
+.display-box {
+    background-color: white;
+    border: solid black;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+#btn {
+    background-color: #fb0066;
+}
+input[type=button] {
+    background-color: purple;
+    color: white;
+    border: solid black;
+    width: 100%;
+    height: 70%;
+}
