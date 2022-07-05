@@ -30,15 +30,20 @@ app.get('/facilities',function(req,res){
 	         <button style="width:10em;height:4em;background:green;"><a href="/home" style="text-decoration:none;color:white;font-weight:bold">Home</a></button>`
     )})
 
+
 app.get('/info',function(req,res){
-	res.send(`<h2>We are in KLE info Page</h2>
-	         <button style="width:10em;height:4em;background:green;"><a href="/home" style="text-decoration:none;color:white;font-weight:bold">Home</a></button>`
-    )})
+	let features=['Donec ipsum diam, pretium mollis dapibus risus. Nullam dolor nibh pulvinar at interdum eget']
+	res.send(features)
+	
+})
 
 app.get('/feedback',function(req,res){
-	res.send(`<h2>We are in KLE info Page</h2>
-	         <button style="width:10em;height:4em;background:green;"><a href="/home" style="text-decoration:none;color:white;font-weight:bold">Home</a></button>`
-    )})
+	let feedback={Name:"Deepa",Age:24,contact_no:9986576977,feedback:"Good"}
+	for(let f of Object.values(feedback))
+	{
+		res.send(f) 
+	}
+})
 
 app.get('/vendor-registration',function(req,res){
 	res.sendFile(__dirname+"/"+"vendor_registration.html")
@@ -46,10 +51,8 @@ app.get('/vendor-registration',function(req,res){
 })
 
 app.get('/success',function(req,res){
-	res.send(`<h1>successfully registered</h1>
-	          <h4>Please Click on Home Button</h1>
-	          <button style="width:10em;height:4em;background:green;"><a href="/home" style="text-decoration:none;color:white;font-weight:bold">Home</a></button>`
-			 )
+	let success="successfully registered"
+	res.send(success)
 	
 })
 
