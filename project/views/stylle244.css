@@ -1,0 +1,9 @@
+
+.col-md-4
+{
+    background-image: url(../bootstrap/flipkart\ icon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
